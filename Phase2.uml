@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controllers.EventSystem</OriginalElement>
+  <nodes>
+    <node x="195.0" y="350.0">gateways.FileGateway</node>
+    <node x="900.453125" y="120.0">usecases.UserManager</node>
+    <node x="809.203125" y="200.0">entities.Attendee</node>
+    <node x="218.0" y="275.0">controllers.MessagingSystem</node>
+    <node x="374.0" y="350.0">controllers.EventSystem</node>
+    <node x="702.953125" y="0.0">java.io.Serializable</node>
+    <node x="229.453125" y="120.0">entities.Request</node>
+    <node x="1054.453125" y="120.0">entities.Conversation</node>
+    <node x="640.0" y="275.0">controllers.MainController</node>
+    <node x="799.453125" y="120.0">entities.User</node>
+    <node x="0.0" y="350.0">presenters.MainPresenter</node>
+    <node x="637.453125" y="120.0">usecases.EventManager</node>
+    <node x="1271.703125" y="200.0">entities.Organizer</node>
+    <node x="843.0" y="275.0">presenters.EventPresenter</node>
+    <node x="1046.0" y="275.0">presenters.LoginPresenter</node>
+    <node x="429.0" y="275.0">presenters.ScheduleBuilder</node>
+    <node x="12.453125" y="120.0">usecases.ConversationManager</node>
+    <node x="530.453125" y="120.0">entities.Event</node>
+    <node x="553.0" y="350.0">controllers.LoginSystem</node>
+    <node x="0.0" y="200.0">entities.Speaker</node>
+    <node x="1216.453125" y="120.0">usecases.UserFactory</node>
+    <node x="352.453125" y="120.0">usecases.RequestManager</node>
+    <node x="0.0" y="275.0">presenters.MessagePresenter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="entities.Speaker" target="java.io.Serializable">
+      <point x="-25.75" y="-15.0" />
+      <point x="25.75" y="180.0" />
+      <point x="1.953125" y="180.0" />
+      <point x="1.953125" y="50.0" />
+      <point x="708.8697916666665" y="50.0" />
+      <point x="-65.08333333333337" y="15.0" />
+    </edge>
+    <edge source="usecases.RequestManager" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="431.453125" y="80.0" />
+      <point x="744.3697916666665" y="80.0" />
+      <point x="-29.58333333333337" y="15.0" />
+    </edge>
+    <edge source="usecases.ConversationManager" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="110.953125" y="60.0" />
+      <point x="720.703125" y="60.0" />
+      <point x="-53.25" y="15.0" />
+    </edge>
+    <edge source="entities.Conversation" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="1125.453125" y="70.0" />
+      <point x="815.3697916666667" y="70.0" />
+      <point x="41.41666666666674" y="15.0" />
+    </edge>
+    <edge source="entities.Organizer" target="java.io.Serializable">
+      <point x="29.75" y="-15.0" />
+      <point x="1360.953125" y="50.0" />
+      <point x="839.0364583333333" y="50.0" />
+      <point x="65.08333333333337" y="15.0" />
+    </edge>
+    <edge source="entities.Request" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="280.953125" y="70.0" />
+      <point x="732.5364583333333" y="70.0" />
+      <point x="-41.41666666666663" y="15.0" />
+    </edge>
+    <edge source="entities.User" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="839.453125" y="100.0" />
+      <point x="779.8697916666667" y="100.0" />
+      <point x="5.9166666666667425" y="15.0" />
+    </edge>
+    <edge source="entities.Event" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="573.953125" y="90.0" />
+      <point x="756.203125" y="90.0" />
+      <point x="-17.75" y="15.0" />
+    </edge>
+    <edge source="entities.Attendee" target="entities.User">
+      <point x="-27.75" y="-15.0" />
+      <point x="836.953125" y="180.0" />
+      <point x="839.453125" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="entities.Organizer" target="entities.User">
+      <point x="-29.75" y="-15.0" />
+      <point x="1301.453125" y="170.0" />
+      <point x="866.1197916666666" y="170.0" />
+      <point x="26.66666666666663" y="15.0" />
+    </edge>
+    <edge source="usecases.EventManager" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="708.453125" y="100.0" />
+      <point x="768.0364583333333" y="100.0" />
+      <point x="-5.916666666666629" y="15.0" />
+    </edge>
+    <edge source="usecases.UserManager" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="967.453125" y="80.0" />
+      <point x="803.5364583333333" y="80.0" />
+      <point x="29.58333333333337" y="15.0" />
+    </edge>
+    <edge source="usecases.UserFactory" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="1283.453125" y="60.0" />
+      <point x="827.203125" y="60.0" />
+      <point x="53.25" y="15.0" />
+    </edge>
+    <edge source="entities.Speaker" target="entities.User">
+      <point x="25.75" y="-15.0" />
+      <point x="77.25" y="180.0" />
+      <point x="812.7864583333334" y="180.0" />
+      <point x="-26.66666666666663" y="15.0" />
+    </edge>
+    <edge source="entities.Attendee" target="java.io.Serializable">
+      <point x="27.75" y="-15.0" />
+      <point x="892.453125" y="180.0" />
+      <point x="889.953125" y="180.0" />
+      <point x="889.953125" y="90.0" />
+      <point x="791.703125" y="90.0" />
+      <point x="17.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6477675407512402" x="695.5" y="190.0" />
+  <SelectedNodes>
+    <node>controllers.EventSystem</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

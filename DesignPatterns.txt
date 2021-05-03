@@ -1,0 +1,18 @@
+Design Patterns
+
+Factory method:
+Classes involved: UserFactory, UserManager that stores UserFactory as a variable.
+there is a class called UserFactory, which creates corresponding User object with different user input.
+Depends on the type of account the user wants to sign up as,
+the LoginSystem then sends this information to the UserManager, and the UserManager calls the factory's getUser()
+method to return the correct User object.
+
+Dependency Injection:
+Classes involved: LoginSystem, EventSystem, MessagingSystem
+these controllers all take in pre-constructed use cases and presenters that were constructed in the MainController,
+and set them as variables for latter use.
+
+Iterator Design Pattern:
+Also, obviously we have iterator design pattern, because we go through the list of events, rooms and
+other array lists that we used in our program to do certain operations. We are iterating through an ArrayList object
+every time that has implemented the iterator design pattern implicitly in itself.
